@@ -30,7 +30,7 @@ Currently, we support yolov7 v0.1
 // download https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt
 cp {tensorrtx}/yolov7/gen_wts.py {WongKinYiu}/yolov7
 cd {WongKinYiu}/yolov7
-python gen_wts.py
+python gen_wts.py -w yolov7.pt 
 // a file 'yolov7.wts' will be generated.
 ```
 
